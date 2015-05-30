@@ -30,22 +30,22 @@ function getConn()
 
 function selectProducts(){
 
-  echo "Selecionar produtos";
+  echo '{"products":["produto1","produto2"]}';
 }
 
 function insertProduct(){
 
-  echo "Inserir produto";
+  echo '{"result":"Inserido com sucesso"}';
 }
 
 function updateProduct(){
 
-  echo "Atualizar produto";
+  echo '{"result":"Atualizado com sucesso"}';
 }
 
 function removeProduct(){
 
-  echo "Remover produto";
+  echo '{"result":"Removido com sucesso"}';
 }
 
 
